@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5EE9E;
+}
+
+.container {
+    background-color: white;
+    width: 700px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    box-shadow: 0 10px 15px 0 rgba(0, 0,0,0.15);
+    text-align: center;
+}
+
+h2{
+    color: #70410a;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+}
+
+blockquote{
+    color:#a86e17;
+    margin-top: 30PX;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+
+span{
+    color:#a86e17;
+    font-family: 'Caveat', cursive;
+    display: block;
+    position: relative;
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+.container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.container div button {
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    font-size: 15px;
+    background-color: #915715;
+    color: #f5f0c1;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.container div button:hover {
+    background-color: #613400;
+    color: #f5f0c1;
+}
